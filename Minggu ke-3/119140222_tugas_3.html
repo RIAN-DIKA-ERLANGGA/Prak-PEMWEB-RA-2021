@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<link type="text/css" rel="stylesheet" href="119140222_tugas_3.css">
+<head>
+<title>Tugas Praktikum Minggu 3</title>
+</head>
+<header>
+</header>
+<body>
+  <div>
+    select theme:<input type="checkbox" class="checkbox" id="checkbox">
+    <label for="checkbox"
+      class="label">
+        <div class="ball"></div>
+        </label>
+      </div>
+    <script>
+      const checkbox =
+  document.getElementById('checkbox');
+  checkbox.addEventListener('change',()=>{
+      document.body.classList.toggle('dark');
+  });
+    </script>
+  <h1>This is my website</h1>
+  Select the weather type today:
+    <select name="weather" id="weather" onchange="cuaca()">
+        <option value="sunny">Sunny</option>
+        <option value="rainy">Rainy</option>
+    </select>
+    <p id="cc"></p>
+    <script>
+        function cuaca(){
+            var jenismusim=document.getElementById("weather");
+            if(jenismusim.value=="sunny"){
+                var cuaca=document.getElementById("cc");
+                cuaca.innerText = "It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream";
+            }else if(jenismusim.value="rainy"){
+                var cuaca=document.getElementById("cc");
+                cuaca.innerText = "Rain is falling outside;take a rain coat and a brolly,and dont stay out for too long";
+            }
+        }
+    </script>
+    <input type = "number" min="1" id = "angka">
+    <button type = "button" onclick = "checker()"> get the factorial </button>
+    <p> the Factorial is : <span id = "hasil"> </span> </p>
+    <script>
+      function checker(){
+       var angka = parseInt( document.getElementById("angka").value);
+        if( isNaN(angka) ){
+          alert(" masukan angka!!! ");
+    return;}
+    var factorial = calcFact(angka);
+    document.getElementById("hasil").innerHTML = factorial;
+    }
+    function calcFact( angka )
+    {
+    var i;
+    var fact = 1;
+    for( i = 1; i <= angka; i++ )
+    {
+    fact = fact * i;
+    }
+    return fact;
+    }
+    </script>
+
+</body>
+<footer>
+</footer>
