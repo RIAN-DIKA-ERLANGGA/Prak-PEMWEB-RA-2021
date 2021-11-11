@@ -1,0 +1,58 @@
+body{
+background-color: gainsboro;
+}
+
+h1{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+div{
+	margin: 10px;
+	margin-left: 20%;
+
+}
+table tr td{
+	padding: 0 10 10 10;
+}
+table input{
+	background-color: rgb(245, 255, 250, 0.5);
+	height: 25px;
+}
+table button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tabeldata{
+    border-collapse: collapse;
+    font-size: 13pt;
+    margin: 20px;
+}
+.tabeldata td{
+    padding:5px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+.tabeldata th{
+    background-color: black;
+    height: 30px;
+    padding: 5px;
+	color:white
+}
+.tabeldata button{
+	margin: 0;
+}
+button{
+	background: rgb(2, 2, 139);
+	color: white;
+}
+button:hover{
+	background: rgb(22, 22, 255);
+	color: white;
+}
+.btn-delete:hover{
+	background-color: red;
+}
+.btn-edit:hover{
+	background-color: greenyellow;
+}
