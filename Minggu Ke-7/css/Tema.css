@@ -1,0 +1,62 @@
+body{
+background:url(https://www.pockettactics.com/wp-content/uploads/2021/07/Genshin-impact-inazuma-region.jpg);
+background-repeat: no-repeat;
+background-size: 2900px;
+background-position: center;
+}
+
+h1{
+	color: white;
+}
+h1 span{
+	background-color: rgb(81, 82, 83);
+}
+div{
+	margin: 10px;
+	text-align: center;
+
+}
+table tr td{
+	padding: 0 10 10 10;
+}
+table input{
+	background-color: rgb(245, 255, 250, 0.5);
+	height: 25px;
+}
+table button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tabeldata{
+    border-collapse: collapse;
+    font-size: 13pt;
+    margin: 20px;
+}
+.tabeldata td{
+    padding:5px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+.tabeldata th{
+    background-color: black;
+    height: 30px;
+    padding: 5px;
+	color:white
+}
+.tabeldata button{
+	margin: 0;
+}
+button{
+	background: rgb(135, 14, 248);
+	color: white;
+}
+button:hover{
+	background: rgb(255, 22, 243);
+	color: white;
+}
+.btn-delete:hover{
+	background-color: red;
+}
+.btn-edit:hover{
+	background-color: greenyellow;
+}
